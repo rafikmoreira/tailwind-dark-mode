@@ -12,6 +12,7 @@ Para usar este projeto, você precisa ter o Node.js instalado em sua máquina. A
 Este projeto inclui dois scripts no arquivo package.json:
 
 dev: Executa o servidor de desenvolvimento com hot-reload em http://localhost:1234.
+
 build: Compila o projeto para produção.
 
 Para executar qualquer um desses scripts, basta digitar npm run dev ou npm run build no terminal.
