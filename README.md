@@ -28,4 +28,4 @@ Este projeto usa as seguintes dependências:
 - tailwindcss: uma biblioteca CSS que fornece classes utilitárias para estilos comuns.
 
 ## Licença
-Este projeto é licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
+Este projeto é licenciado sob a licença MIT.
