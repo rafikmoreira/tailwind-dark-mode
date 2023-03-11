@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FAVICON -->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./assets/img/favicon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./assets/img/favicon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./assets/img/favicon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/img/favicon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./assets/img/favicon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/img/favicon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./assets/img/favicon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./assets/img/favicon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/img/favicon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./assets/img/favicon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/img/favicon.png"
+    />
+    <meta name="msapplication-TileImage" content="./assets/img/favicon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./assets/img/favicon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/img/favicon.png"
+    />
+
+    <link
+      rel="canonical"
+      href="https://tailwind-dark-mode.rafikmoreira.dev.br"
+    />
+    <link rel="next" href="https://tailwind-dark-mode.rafikmoreira.dev.br" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Tailwind CSS Dark Mode" />
+    <meta
+      property="og:url"
+      content="https://tailwind-dark-mode.rafikmoreira.dev.br"
+    />
+    <meta property="og:site_name" content="Tailwind CSS Dark Mode" />
+    <meta property="og:image" content="./assets/img/ogg.png" />
+    <meta property="og:image:width" content="500" />
+    <meta property="og:image:height" content="218" />
+    <meta property="og:image:type" content="image/png" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Tailwind CSS Dark Mode</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="description"
+      content="Exemplo de como utilizar o dark mode com Tailwind CSS"
+    />
+    <link rel="stylesheet" href="./styles/index.scss" />
+  </head>
+  <body class="bg-background dark:bg-background-dark relative">
+    <header class="absolute top-0 w-screen hidden lg:block">
+      <nav class="bg-secondary dark:bg-secondary-dark">
+        <div class="container">
+          <nav class="py-[15px]">
+            <ul
+              class="flex text-primary text-4xl uppercase dark:text-primary-dark gap-[20px] font-bold"
+            >
+              <li>
+                <a
+                  class="hover:opacity-80 transition-opacity"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Artigo</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:opacity-80 transition-opacity"
+                  href="https://www.figma.com/file/3SV71F7wbfly2Zbh7wLb2R/Tailwind-Dark-Mode?node-id=0%3A1&t=x9alBgMaynTJ6sNC-1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Figma</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:opacity-80 transition-opacity"
+                  href="https://tailwindcss.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Tailwind CSS</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:opacity-80 transition-opacity"
+                  href="https://github.com/rafikmoreira/tailwind-dark-mode"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:opacity-80 transition-opacity"
+                  href="https://www.linkedin.com/in/rafikmoreira"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >LinkedIn</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div
+        class="container flex justify-center items-center h-screen gap-[40px] flex-col lg:flex-row"
+      >
+        <img
+          class="dark:hidden animate-bounce max-h-[400px] max-w-[80%]"
+          src="./assets/img/sol_1.png"
+          alt="Desenho de um sol e uma nuvem juntos, ambos sorrindo"
+        />
+        <img
+          class="hidden dark:block animate-bounce max-h-[400px] max-w-[80%]"
+          src="./assets/img/lua_1.png"
+          alt="Desenho de uma lua com nuvens e estrelas ao redor"
+        />
+
+        <div>
+          <div class="uppercase text-primary text-center font-bold dark:hidden">
+            <h2 class="text-5xl">
+              Está muito<br />
+              claro por aqui!!!
+            </h2>
+            <h4 class="text-1xl animate-pulse mt-[10px]">
+              Clique na lua para alterar
+            </h4>
+          </div>
+          <div
+            class="uppercase dark:text-primary-dark text-center font-bold hidden dark:block"
+          >
+            <h2 class="text-5xl">
+              Está muito<br />
+              escuro por aqui!!!
+            </h2>
+            <h4 class="text-1xl animate-pulse mt-[10px]">
+              Clique no sol para alterar
+            </h4>
+          </div>
+          <div class="flex justify-center mt-[10px]">
+            <button id="toggle-theme">
+              <img
+                src="./assets/img/lua_1.png"
+                alt="Desenho de uma lua com nuvens e estrelas ao redor"
+                class="h-[152px] animate-pulse dark:hidden"
+              />
+              <img
+                src="./assets/img/sol_1.png"
+                alt="Desenho de um sol e uma nuvem juntos, ambos sorrindo"
+                class="h-[152px] animate-pulse hidden dark:block"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="index.ts"></script>
+  </body>
+</html>
